@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from sklearn.datasets import load_breast_cancer       #Popular classification dataset
 from sklearn.model_selection import train_test_split  #For randomly dividing into training and testing data
-address = '/Users/nishuchoudhary/Desktop/'
+
 
 #This function is used to resample data from a given dataset using given probabilities
 def resample_pr(train_X,train_y,weights):
